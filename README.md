@@ -1,16 +1,16 @@
 # Xerosploit
 
-Xerosploit es un framework avanzado escrito en Python desarrollado por LionSec. Dicha herramienta es de tipo MIM (Man in the Middle), nos permite ejecutar diferentes tipos de ataques, como por ejemplo cambiar todas las imagenes que se sirven las paginas web del equipo victima, o inclusive insertar codigo HTML o .JS.
+Xerosploit es un framework avanzado escrito en Python desarrollado por LionSec. Dicha herramienta es de tipo MIM (Man in the Middle), nos permite ejecutar diferentes tipos de ataques, como por ejemplo cambiar todas las imágenes que se sirven las páginas web del equipo víctima, o inclusive insertar codigo HTML o .JS.
 
 Hago esta explicación para mostrar como se instala el programa. 
 
-Todo el credito es para LionSec.
+####### Todo el crédito es para LionSec.
 
 # Instalando Xerosploit 
 
 #### Dependecias necesarias
 
-Para la instalación usaré una maquina con Kali Linux ( podéis ver como crear una en el respositorio https://github.com/Zoser777/Metasplotable_2). Lo primero que haré es instalar las dependencias necesarias:
+Para la instalación usaré una máquina con Kali Linux ( podéis ver como crear una en el respositorio https://github.com/Zoser777/Metasplotable_2). Lo primero que haré es instalar las dependencias necesarias:
 
     sudo apt-get install nmap hping3 build-essential ruby-dev libpcap-dev libgmp3-dev python3-pip python2 2to3
     
@@ -18,7 +18,7 @@ Para la instalación usaré una maquina con Kali Linux ( podéis ver como crear 
 
 ##### Tabulate y Terminaltables
 
-A continuación instalaremos el Tabulate y el Terminaltables, que por lo que he podido leer en varias guías son paquetes de Python que nos permiten utilizar funciones para mostrar tablas graficas con Python, esto lo podremos ver reflejado más adelante.
+A continuación instalaremos el Tabulate y el Terminaltables, que por lo que he podido leer en varias guías son paquetes de Python que nos permiten utilizar funciones para mostrar tablas gráficas con Python, esto lo podremos ver reflejado más adelante.
 
 Por ahora instalamos lo siguiente mediante Python:
 
@@ -31,7 +31,7 @@ Por ahora instalamos lo siguiente mediante Python:
      
 ##### Repositorio principal
 
-Ahora instalaremos el repositorio principal de la herramienta desde el siguiente enlace, al cuál podéis acceder para aprender más sobre esta. 
+Ahora instalaremos el repositorio principal de la herramienta desde el siguiente enlace, al cual podéis acceder para aprender más sobre esta. 
 
 Nos dirigiremos (por ejemplo, podría ser otro directorio) a Documentos. Aquí ejecutaremos el siguiente comando para clonar el repositorio:
 
@@ -141,7 +141,7 @@ Para elegir otro modulo, debemos escribir "back" y "help" para volver a mostrar 
 
 # Conlusión
 
-Como se puede apreciar, la herramienta "pscan" sirve para escanear los puertos, pero también se puede realizar un ataque Dos o injectarHTML o .JS entre otras cosas. También podemos usar la opción de sniff , para capturar todo tipo de datos sensibles en la maquina atacada. 
+Como se puede apreciar, la herramienta "pscan" sirve para escanear los puertos, pero también se puede realizar un ataque Dos o injectarHTML o .JS entre otras cosas. También podemos usar la opción de sniff , para capturar todo tipo de datos sensibles en la máquina atacada. 
 
 Espero que haya sido de utilidad la guía, en caso de surgir dudas me podéis contactar en z0s3r77@gmail.com.
 
